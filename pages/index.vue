@@ -6,7 +6,6 @@
 
 <script>
 export default {
-  layout: 'default',
   head() {
     return {
       title: 'Welcome to dad jokes',
