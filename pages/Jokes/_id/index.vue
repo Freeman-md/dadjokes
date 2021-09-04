@@ -29,6 +29,18 @@ export default {
     } catch (error) {
       console.log(error)
     }
+  },
+  head() {
+    return {
+      title: this.joke,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Best place for corny dad jokes'
+        }
+      ]
+    }
   }
 }
 </script>
